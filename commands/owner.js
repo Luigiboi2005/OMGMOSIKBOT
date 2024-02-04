@@ -36,7 +36,7 @@ module.exports = {
             .setTimestamp();
       interaction.reply({ embeds: [embed] }).catch(e => {});
 
-    } catch (e) {
+     catch (e) {
     console.error(e); 
   }
   },
